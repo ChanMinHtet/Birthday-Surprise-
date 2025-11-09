@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, My Love 💖</title>
+  <link rel="stylesheet" href="birthday.css" />
+</head>
+<body>
+  <!-- Floating Background Animation -->
+  <div class="background-animation">
+    <div class="balloons"></div>
+    <div class="sparkles"></div>
+  </div>
+
+  <div class="container">
+    <h1 class="title">Countdown to Your Special Day 💕</h1>
+
+    <!-- Countdown Timer -->
+    <div id="countdown">
+      <div class="time-box"><span id="days">00</span><p>Days</p></div>
+      <div class="time-box"><span id="hours">00</span><p>Hours</p></div>
+      <div class="time-box"><span id="minutes">00</span><p>Minutes</p></div>
+      <div class="time-box"><span id="seconds">00</span><p>Seconds</p></div>
+    </div>
+
+    <!-- Surprise Message -->
+    <div id="birthday-message" class="hidden">
+      <h1>🎉 HAPPY BIRTHDAY, My BU BUU! 🎂</h1>
+      <p>You make my world brighter every single day 💖</p>
+    </div>
+    <!-- Image Gallery -->
+  <section id="gallery-section" class="gallery hidden">
+  <h2>Our Beautiful Memories 💞</h2>
+  <div class="carousel">
+    <button class="prev">&#10094;</button>
+    <div class="carousel-track">
+      <div class="slide active">
+        <img src="img/photo1.jpg" alt="Memory 1">
+        <p class="caption">That sunset when you smiled — unforgettable 🌅</p>
+      </div>
+      <div class="slide">
+        <img src="img/photo2.jpg" alt="Memory 2">
+        <p class="caption">This is the last time we meet 💞</p>
+      </div>
+      <div class="slide">
+        <img src="img/photo5.jpg" alt="Memory 3">
+        <p class="caption">This is our first date 💞</p>
+      </div>
+      <div class="slide">
+        <img src="img/photo3.jpg" alt="Memory 3">
+        <p class="caption">I wish you always shine like today. Your kindness and beautiful spirit cannot be described 👑</p>
+      </div>
+      <div class="slide">
+        <img src="img/photo4.jpg" alt="Memory 3">
+        <p class="caption">You are the only person in the world with a smile like this. Your smile makes everything beautiful ✨</p>
+      </div>
+      <div class="slide">
+        <img src="img/photo9.jpg" alt="Memory 3">
+        <p class="caption">Your eyes are like my home. Always warm and peaceful. This is where I want to be 🌎</p>
+      </div>
+      <div class="slide">
+        <img src="img/photo10.jpg" alt="Memory 3">
+        <p class="caption">This photo was taken randomly at Yoe Shin coffee shop. Simple days are always beautiful with you ☕️</p>
+      </div>
+      <div class="slide">
+        <img src="img/photo8.jpg" alt="Memory 3">
+        <p class="caption">We're always childish when we're together 😛</p>
+      </div>
+      <div class="slide">
+        <img src="img/photo6.jpg" alt="Memory 3">
+        <p class="caption">I look at the phone with my eyes, I feel the heart with your hand 📱👀🤝💖</p>
+      </div>
+      <div class="slide">
+        <img src="img/photo11.jpg" alt="Memory 3">
+        <p class="caption">Keep being adorable like a little kid, just like this, always 💖</p>
+      </div>
+      <div class="slide">
+        <img src="img/photo12.jpg" alt="Memory 3">
+        <p class="caption">The dearest little froggy in the world 🐸💖</p>
+      </div>
+      <div class="slide">
+        <img src="img/photo13.jpg" alt="Memory 3">
+        <p class="caption">Do you remember this picture? It was sent to me on your first day of medical school 👩‍⚕️🩺📚💖</p>
+      </div>
+      <div class="slide">
+        <img src="img/photo14.jpg" alt="Memory 3">
+        <p class="caption">The picture that I found on your Facebook wall when I first fell in love with you 📸💖💫</p>
+      </div>
+      <div class="slide">
+        <img src="img/photo15.jpg" alt="Memory 3">
+        <p class="caption">My gift and my cute girl together in one frame 🎁</p>
+      </div>
+    </div>
+    <button class="next">&#10095;</button>
+  </div>
+</section>
+
+</div>
+  <!-- Music -->
+  <audio id="bg-music" src="img/Happy Whistling Ukulele.mp3" loop></audio>
+
+  <!-- Celebration Effects -->
+  <canvas id="fireworks-canvas" class="hidden"></canvas>
+  <div id="balloon-container" class="hidden"></div>
+  <div id="confetti-container" class="hidden"></div>
+
+
+  <script src="birthday.js"></script>
+</body>
+</html>
